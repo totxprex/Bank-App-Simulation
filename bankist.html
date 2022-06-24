@@ -1,0 +1,153 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank App Simulation</title>
+  <link rel="icon" href="siteiconLogo.png">
+  <link rel="stylesheet" href="bankist.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <nav>
+
+    <center>
+      <img src="coloredtolulogo.png" class="img" width="50px" height="50px" alt="Logo" />
+    </center>
+
+    <div class="name">Log in to get started...</div>
+    <button class='arrow'>➡️</button>
+    <input class="pin" placeholder="         PIN" style="justify-content: center;" type="number"></input>
+    <input class="user" placeholder="        user"></input>
+
+  </nav>
+
+  <main>
+
+    <div class="allcontent hide">
+
+      <br>
+      <br>
+
+      <div class="currentbal">Current Balance
+        <div class="underbal">As of <span class="date"> 7/31/2020</span>, <span class="time">6:39 PM</span></div>
+      </div>
+
+      <div class="totalbal">$<span class="totalbalval">0</span>
+      </div>
+
+      <br>
+
+
+      <div class="divcontainer">
+
+        <div class="divcol1">
+
+
+          <div class="eachtransactionDeposit">
+            <div
+              style="width: 80px; height: 20px; border-style: none; background-color: rgb(129, 226, 105); opacity: 0.7; border-radius: 15px; padding-top: 5%;">
+
+              <span
+                style="font-size: x-small; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white;">
+                #DEPOSIT </span>
+
+            </div>
+            <div
+              style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: x-small; margin-top: 5%;">
+              TODAY
+            </div>
+            <div class='transacamt1'
+              style="margin-left: 225%;font-size: small; margin-top: 5%; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ">
+              &nbsp;$50</div>
+            <hr width="370px" style="border-color: rgb(255, 255, 255); opacity: 0.3; margin-top: -0.111111%;">
+          </div>
+
+
+          <div class="eachtransactionWithdraw">
+            <div
+              style="width: 80px; height: 20px; border-style: none; background-color: rgb(226, 90, 90); opacity: 0.7; border-radius: 15px; padding-top: 5.5%;">
+
+              <span
+                style="font-size: xx-small; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white;">
+                #WITHDRAWAL </span>
+
+            </div>
+            <div
+              style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: x-small; margin-top: 5%;">
+              TODAY
+            </div>
+            <div class='transacamt2'
+              style="margin-left: 225%;font-size: small; margin-top: 5%; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ">
+              -$50</div>
+            <hr width="370px" style="border-color: rgb(255, 255, 255); opacity: 0.3; margin-top: -0.111111%;">
+          </div>
+
+
+        </div>
+
+
+        <div class="divcol2">
+          <div class='trfmoney'>
+            <button class="trfMonyGo">➡️</button>
+            <p
+              style="text-align: left; margin-left: 3%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold;">
+              TRANSFER MONEY</p>
+
+
+            <input class="trfmoneAmount" placeholder="   Amount" type="number"></input>
+
+            <input class="trfMoneyTo" placeholder="   Transfer to"></input>
+
+          </div>
+
+          <div class='requestloan'>
+            <button class="reQuestloanGo">➡️</button>
+            <p
+              style="text-align: left; margin-left: 3%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold;">
+              REQUEST LOAN</p>
+
+
+            <input class="requestloanamt" placeholder="   Amount" type="number"></input>
+
+          </div>
+
+
+
+          <div class='closeacc'>
+            <button class='closeAccGo'>➡️</button>
+
+            <p
+              style="text-align: left; margin-left: 3%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold;">
+              CLOSE ACCOUNT</p>
+
+            <input class="closeAccconfirmUser" placeholder="   Confirm User"></input>
+
+            <input class="closeAccconfirmuPin" placeholder="   Confirm Pin" type="number"></input>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="inOutInterest">IN <span class="in">$<span class='inNumber'>0</span></span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OUT <span class="out">$<span class='outNumber'>0</span></span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INTEREST <span class="interest">$328.50</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="sort">⬇️SORT</button>
+        <button class="convert">🔁 CONVERT TO EURO</button>
+      </div>
+
+      <p style="justify-content: center; font-size: x-small; float: right; margin-right: 20%; color: crimson;"> <span class="logoutime">9:47</span></p>
+    </div>
+
+  </main>
+
+  <script src="bankist.js"></script>
+</body>
+
+</html>
