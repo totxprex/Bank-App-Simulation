@@ -4,7 +4,7 @@ Hosted: https://t-bankapp.netlify.app
 
 A full bank app simulation with all standard features like transfer, loan request, interest rate calc, closing of account, etc. 
 
-Logic full implemented with javascript. Note: I used some Advanced Functions in script. 
+Logic fully implemented with javascript. Note: I used some Advanced Functions in script. 
 
 Cuurent Account In Scripts' Object Data Structure for testing logic:
 
