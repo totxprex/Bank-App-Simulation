@@ -18,5 +18,7 @@ Login will work for the above accounts.
 
 Transactions can be made among these accounts. State saved via the Local Storage API so the data for each account is stored in your browser and recovered upon App loading.
 
+Countdown feature fully implemented.
+
 Should not be re-used and don't claim as your own. 
 
